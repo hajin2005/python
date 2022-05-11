@@ -17,4 +17,6 @@ print(our_team[9])
 print(our_team[5:9])
 
 print("=====================")
-club = {"김비야":"LSC","김유진":"MIVEN","박선주":"GM"}
+club = {"김비야":"LSC","김유진":"MIVEN","박선주":"GM","백선미":"JS"}
+
+print(club["박선주"])
