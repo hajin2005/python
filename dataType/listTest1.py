@@ -13,9 +13,9 @@ print("insert:",colors)
 #index() : 어떤 값이 어디에 있는지 확인, 2번째 인자를 지정하면 지정된 방 번호 이후부터 검색
 print("red의 위치 : ",colors.index("red"))  #red의 위치 [0] 출력
 colors+=["red"]
-print(colors.index("red",1))
+print(colors.index("red",1)) #[1]에서부터 "red" 요소 찾기
 colors+="red"   #colors 리스트에 [r] [e] [d] 저장됨
-print(colors)
+print('index(): ',colors)
 
 #count() : 현재 해당 값의 개수를 반환
 print(colors.count("red"))

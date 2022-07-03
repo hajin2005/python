@@ -1,9 +1,5 @@
 #문자열 포매팅: print("%s 왔나요?" % name[i])
 # % 서식문자 : % 기호 뒤에 자료형을 가리킴
-from re import X
-from tkinter import Y
-from unicodedata import name
-from unittest import result
 
 num = 50
 s = 'my age %d' % num
@@ -41,6 +37,7 @@ month = 1
 while month <= 12:
     print(f'2020년 {month}월')
     month += 1
+    
 #f-string 포매팅: f'문자열 {변수} 문자열' ex)문자열 맨 앞에 f를 붙이고, 출력할 변수, 값을 중괄호 안에 넣는다.
 #f-string 왼쪽 정렬
 a = 'left'

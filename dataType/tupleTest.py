@@ -6,17 +6,16 @@ print(xy)
 print(color)
 print(xy+color)
 
-#패킹
-color = 129,247,216
+color = 129,247,216 #패킹
 print(color)
-red, green, blue = color
+red, green, blue = color #언패킹 (약간 해제하는 ...느낌)
 print(color)
-print(red)
+print(red) #129
 
 a = (123,"abc",True,123)
-print(a[:2])    #a[0]~a[1]
+print(a[:2])    #a[0]~a[1] =>123, 'abc'
 
-print(a.count(123))
+print(a.count(123)) #2
 
 #test
 t = (1,2,3)

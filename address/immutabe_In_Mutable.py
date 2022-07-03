@@ -4,6 +4,7 @@ print("mutable 객체 요소로 존재하는 immutable, mutable")
 #mutable 객체 안에 있는 immutable
 arr1 = [55,66,[11,22],'a','b']
 arr2 = [55,66,[11,22],'a','b']
+print(f'')
 
 #리스트(immutable) 객체의 주소
 #그 안에 있는 immutable 인 55,66,'a','b'는 어떨까

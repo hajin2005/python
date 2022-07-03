@@ -6,5 +6,5 @@ print(1<2)
     #음수를 포함한 다른 값은 모두 True
     # "", None,0 : False
 print(bool(0))
-print(bool(-1))
-print(bool("test"))
+print(bool(-1)) #True
+print(bool("test")) #True

@@ -1,5 +1,5 @@
 #mutable : 변경되는 객체    immutable : 변경되지 않는 객체, 값이 같으면 주소값이 같다!!!!!!!!!!!!
-print("====imutable 객체====")
+print("====immutable 객체====")
 a = 99
 b = 99
 c = 99
@@ -29,8 +29,8 @@ print(hex(id(num2)))
 
 num1 += 1
 num2 += 3
-print(hex(id(num1)))
-print(hex(id(num2)))
+print('int 값 변경시 ',hex(id(num1))) #주소도 바뀜
+print('int 값 변경시 ',hex(id(num2)))
 
 ##imutable 객체 : str 값 변경시
 print("##imutable 객체 : str 값 변경시")

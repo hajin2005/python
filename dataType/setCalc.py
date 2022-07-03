@@ -9,5 +9,5 @@ print(s3 | s4)
 print(s3.union(s4))
 
 #차집합
-print(s3 - s4)
-print(s3.difference(s4))
+print(s3 - s4) 
+print(s3.difference(s4)) #교집합을 제외한 s3의 집합
