@@ -7,12 +7,19 @@ s2 = input('두 번째 문자열 입력 : ')
 str1 = list(s1)
 str2 = list(s2)
 
-def intersect(a, b):
-    sum = list(set(a) & set(b))
-    sum.sort() #sort()는 list 안에서 값들만 바꿔주지만 그 상태로 반환이 되지 않음.
-    return sum
+def intersect(listA,listB):
+    li =[] #교집합 문자 담는 리스트 생성
+    result = [] #결과를 반환할 리스트 생성
 
-result = intersect(str1, str2) 
-#오름차순 정렬 수정
-print(type(result))
-print(result)
+    for i in listA:
+        for j in listB:
+            if i==j:
+                li += i
+    
+    #중복 제거를 위해 set으로 변환 후 결과값을 반환할 변수에 저장
+    result = list(set(li))
+    result.sort() #예쁘게 오름차순으로 정렬
+
+    return result 
+    
+print(intersect(str1, str2))
