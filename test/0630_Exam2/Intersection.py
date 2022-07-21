@@ -22,4 +22,4 @@ def intersect(listA,listB):
 
     return result 
     
-print(intersect(str1, str2))
+print(f'교집합 문자 출력 : {intersect(str1, str2)}')
