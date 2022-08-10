@@ -6,4 +6,4 @@ lst = [i for i in str] #빈 리스트에 문자열 넣기
 
 lst.reverse() #역순으로 정렬
 result = "".join(lst) #공백을 인식하여 리스트->문자열
-print(result)
+print(f'거꾸로 출력 : {result}')

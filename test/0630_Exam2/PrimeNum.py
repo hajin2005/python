@@ -9,6 +9,7 @@ num = int(input('N 입력 : '))
 
 def isPrimeNumber(n):
     prime_count = 0
+    prime_num = []
 
     for i in range(1,n+1):
         count = 0
@@ -17,7 +18,12 @@ def isPrimeNumber(n):
                 count += 1
         if count == 2:
             prime_count += 1
+            prime_num.append(i) #빈 리스트에 소수 저장
 
-    return prime_count       
+    #리스트의 대괄호와 쉼표 제거
+    primeNum = str(prime_num)[1:-1].replace(',',' ')
 
-print(isPrimeNumber(num))
+    print(f'소수 : {primeNum}')
+    print(f'1~{n}까지 소수의 갯수 : {prime_count}')   
+
+isPrimeNumber(num)

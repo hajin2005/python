@@ -15,7 +15,7 @@ def func_lotto(): #당첨 번호 뽑기
     
     lst = [str(i) for i in list]
     
-    return ','.join(lst)
+    return ' '.join(lst)
 
 #주의! func_lotto : 함수를 호출할 때 괄호가 없으면 주소값이 찍힘
 for i in range(1,11):
